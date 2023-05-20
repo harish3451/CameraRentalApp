@@ -1,11 +1,5 @@
 package com;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-
 public class ViewAllCamera {
 	
 	ViewAllCamera(){
@@ -15,7 +9,7 @@ public class ViewAllCamera {
 		System.out.println("======================================================================================");
 		Cameras cm = new Cameras();
 		cm.print();
-		//cm.Cameras();
+		
 		System.out.println("======================================================================================");
 
 	
