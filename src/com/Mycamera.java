@@ -52,7 +52,7 @@ public class Mycamera {
 		Remove rm = new Remove(n);
 		
 	}
-
+	static int i= 1;
 	private void add() {
 		// TODO Auto-generated method stub
 		
@@ -63,7 +63,7 @@ public class Mycamera {
 		System.out.println("ENTER THE PER DAY PRICE(INR) - ");
 		Float s3 = (float) sc.nextInt();
 		Cameras cm = new Cameras();
-		int n=Main.list.size()+1;
+		int n=Main.list.size()+(++i);
 		Cam camnew = new Cam(n,s1,s2,s3,"Available");
 		System.out.println("YOUR CAMERA HAS BEEN SUCESSFULLY ADDED TO THE LIST\n");
 		Main.list.add(camnew);

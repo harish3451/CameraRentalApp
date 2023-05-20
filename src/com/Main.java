@@ -7,7 +7,8 @@ import java.util.Scanner;
 public class Main {
 	public static List<Cam> list = new ArrayList();
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		// adding camera details to list;
 		list.add(new Cam(1,"Samsung","DS123",500.0,"Available"));
 		list.add(new Cam(2,"Sony","HD123",500.0,"Available"));
 		list.add(new Cam(3,"Panasonic","XC",500.0,"Available"));
@@ -31,7 +32,7 @@ public class Main {
 		list.add(new Cam(16,"canon","DS123",500.0,"Available"));
 		
 		
-		
+		// Application starting point
 		System.out.println("+------------------------------------------+");
 		System.out.println("|   Welcome to Camera Rental Application   |");
 		System.out.println("+------------------------------------------+\n");
@@ -43,6 +44,8 @@ public class Main {
 		System.out.print("Password: ");
 		String str2 = sc.nextLine();
 		System.out.println();
+		
+		// redirecting to main menu
 		menu.Mainmenu();
 		System.out.println("+------------------------------------------+");
 		System.out.println("|   Thank you for using this application   |");
